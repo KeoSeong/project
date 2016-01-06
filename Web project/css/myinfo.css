@@ -1,0 +1,63 @@
+article > div {
+	margin: 50px;
+}
+article > div > div {
+	padding: 10px;
+}
+article > div > div:first-child {
+	padding: 10px;
+    margin: 40px 0px; 40px 0px;
+    border-bottom: 3px solid #000000;
+}
+article > div > div > h3 {
+	background: #8D6E63;
+	margin: 0px;
+	padding: 15px;
+	border: 2px solid #eee;
+	font-size: 20px;
+	color: white;
+}
+article > div > div > div {
+	padding: 15px;
+	border: 2px solid #eee;
+	border-top: 0;
+}
+article > div > div > div input[type="submit"], input[type="text"]{
+	font-size: 20px;
+}
+#graph > div {
+	margin: auto;
+	width: 700px;
+}
+#graph > div > div {
+	overflow:hidden;
+}
+#graph > div > div {
+	margin-left: 10px;
+	font-size: 20px;
+}
+#graph > div > div > div {
+	float: left;
+	width: 500px;
+	height: 20px;
+	border: 1px solid #000000;
+}
+#graph > div > div > div:nth-child(3n-1) {
+	float: left;
+	margin-left: 10px;
+	font-size: 20px;
+	width: 100px;
+	border: none;
+}
+#graph > div>  div > div > div {
+	float: left;
+	width: 5px;
+	height: 20px;
+	background: red;
+}
+#correct {
+	color: blue;
+}
+#incorrect {
+	color: red;
+}

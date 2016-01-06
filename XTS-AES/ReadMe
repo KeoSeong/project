@@ -1,0 +1,9 @@
+다음과 같이 실행
+
+AES만 테스트할때
+gcc -o AES test_AES128.c AES128.c
+./AES
+
+XTS_AES 테스트할때
+gcc -o XTS_AES test_XTS_AES.c XTS_AES.c AES128.c
+./XTS_AES

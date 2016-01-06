@@ -1,0 +1,136 @@
+#community {
+	margin: 2%;
+}
+.search {
+	margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    width : 100%;
+	border-bottom: 2px solid #aaaaaa;
+}
+.search input, select {
+    float: right;
+    margin-right: 10px;
+}
+.search img {
+	width: 30px;
+	height: 27px;
+}
+select {
+    height: 31px;
+    padding: 6px 12px;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #555;
+    border-color: #dddddd;
+    margin-right: 10px;
+}
+/*.panel {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #333;
+}*/
+.panel-heading {
+    background-color: #8D6E63;
+    padding: 10px 15px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.panel-heading input[type="submit"] {
+	background: white;
+	color: #333;
+}
+.search-form input[type="submit"] {
+	background: white;
+	color: #333;
+}
+.write-form>div{
+    top : 10px;
+    left : 30px;
+    right : 120px;
+    position: absolute;
+}
+.write-form>input[type="text"] {
+    width: 100px;
+}
+.write-form>input[type="button"] {
+    width: 130px;
+   	font-size: 50px;
+}
+input[type="text"] {
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+.write-form>div input[type="text"] {
+    width: 100%;
+    position: absolute;
+}
+input[type="submit"] {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    float: right;
+    background-color: #795548;
+    border : 1px solid #dddddd;
+    color : #fff;
+    font-size: 16px;
+}
+.tweet {
+    font-size: 16px;
+    padding: 6px 12px;
+    border-bottom: 2px solid #dddddd;
+    border-radius: 4px;
+}
+.tweet-info>span:first-child {
+    font-weight: bold;
+    
+}
+.tweet-info>span:last-child {
+    color:#8899a6;
+    font-size: 13px;
+}
+.tweet-content {
+    padding: 6px 12px;
+}
+.tweet input[type="submit"] {
+    margin-top: 5px;
+    background-color: #795548;
+    border-color: #dddddd;
+}
+
+.reply {
+    font-size: 16px;
+    padding: 6px 12px;
+    border-bottom: 2px solid #dddddd;
+    border-radius: 4px;
+}
+.panel > .reply:nth-child(n+4) {
+	border-left: 12px solid #5D4037;
+	padding-left: 30px;
+	border-radius: 10px;
+	
+}
+.reply-info>span:first-child {
+    font-weight: bold;
+}
+.reply-info>span:last-child {
+    color:#8899a6;
+    font-size: 13px;
+}
+.reply-content {
+    padding: 6px 12px;
+}
+.reply input[type="submit"] {
+    margin-top: 5px;
+    background-color: #795548;
+    border-color: #dddddd;
+}

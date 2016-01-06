@@ -1,0 +1,84 @@
+
+body{
+	/*border-left: 50px solid #000000;
+	border-right: 50px solid #000000;*/
+	background: #EFEBE9;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+}
+#brand{
+	padding-top:0px;
+	padding-bottom:10px;
+}
+#brand img{
+	width:350px;
+	height:150px;
+}
+#brand div a{
+	text-decoration:none;
+}
+
+nav > div{
+	font-family: "맑은 고딕";
+    font-size:20px;
+    color: white;
+    overflow:hidden;
+    margin: 0 auto;
+    text-align:center;
+    padding-left: 70px;
+}
+
+nav > div div a:link {
+	color: white;
+	text-decoration: none;
+}
+nav > div > div > div:first-child > a {
+	text-decoration: none;
+}
+nav > div > div > div:first-child > a:hover {
+	text-decoration: underline;
+}
+nav > div > div > div div {
+	text-decoration: underline;
+	margin-right: 25px;
+}
+
+nav > div div a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav > div div a:hover{
+    color: #ffd200;
+    text-decoration: underline;
+}
+
+nav > div > div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+	float:left;
+	text-align:center;
+}
+nav > div > div:last-child{
+	float: right;
+}
+nav > div > div:last-child > div{
+	float: left;
+}
+nav > div > div:last-child > div > a > div {
+	border-left: 2px solid #eeeeee;
+	padding-left: 10px;
+	margin-left: 10px;
+	float:right;
+}
+nav{
+	background-color: #3E2723;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+
+header > div:nth-child(1){
+	text-align: right;
+}

@@ -1,0 +1,39 @@
+
+article{
+	padding:0px;
+}
+article>div{    
+	font-family: "맑은 고딕";
+	overflow:hidden;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    height:300px; 
+    padding-left:15px;
+}
+
+article>div>div{   
+    padding-top: 5px;
+	font-weight:bold;
+    float:left;
+	background-color: #3E2723;
+	color:white;
+	font-size:25px;
+	width:32.5%;
+	height:300px;
+	border-radius:10px;
+	margin-right:10px;
+	text-align:center;
+}
+
+article > div> div> div{
+	padding:5px;
+	font-weight:lighter;
+	font-size:15px;
+	background-color: white;
+	color:black;
+	text-align:left;
+	//border:1px solid black;
+	height:220px;
+	overflow:hidden;
+	
+}

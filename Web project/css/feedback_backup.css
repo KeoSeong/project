@@ -1,0 +1,109 @@
+/*2011036782 안정기*/	
+
+aside > a > div{
+	background-color : #0084ff;
+	color : white;
+	font-family: "맑은 고딕";
+    font-size:15px;
+    overflow:hidden;
+    margin:5px;
+    padding : 10px;
+    text-align:center;
+}
+aside > a{
+	text-decoration:none;
+}
+aside > a > div:hover {
+	background-color : #006cd1;
+	color: #ffd200;
+    cursor: pointer;
+}
+h1{
+	font-family: "맑은 고딕";
+	text-align:center;
+}
+aside{
+	margin-left : 10px;
+	margin-right : 10px;
+	width : 200px;
+	float : left;
+}
+article{
+	min-height : 300px;
+	padding-left : 60px;
+	padding-right : 60px;
+	margin-top : 30px;
+	margin-bottom : 10px;
+	overflow:hidden;
+	margin-right: 10px;
+	text-align:center;
+}
+article>div>div{
+    padding-top: 10px;
+    padding-bottom: 5px;
+	font-weight:bold;
+    float:left;
+	background-color: #006064;
+	color:white;
+	font-size:30px;
+	width:33.33333333%;
+	height:30%;
+	text-align:center;
+}
+
+	
+.bt {
+	background-color:#006064;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:7px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.bt:hover {
+	background-color:#5cbf2a;
+}
+.bt:active {
+	position:relative;
+	top:1px;
+}
+
+.feed{
+	width:99.5%;
+	height:280px;
+	font-size:20px;
+	color:#0084ff;
+}
+
+
+
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+}

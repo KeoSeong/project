@@ -1,0 +1,134 @@
+/*2011036782 안정기*/	
+
+article{
+	min-height : 300px;
+	padding-left : 60px;
+	padding-right : 60px;
+	//margin-top : 30px;
+	margin-bottom : 10px;
+	overflow:hidden;
+	margin-right: 10px;
+	text-align:center;
+	
+}
+article>div>div{
+    padding-top: 10px;
+    padding-bottom: 5px;
+	font-weight:bold;
+    float:left;
+	background-color: #3E2723;
+	color:white;
+	font-size:30px;
+	width:100%;
+	height:30%;
+	text-align:center;
+	border-radius:15px;
+	
+}
+
+	
+.bt {
+	background-color:#3E2723;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:7px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	
+}
+.bt:hover {
+	background-color:#8E2723;
+}
+.bt:active {
+	position:relative;
+	top:1px;
+}
+
+.feed{
+	width:99.5%;
+	height:280px;
+	font-size:25px;
+	color:#3E2723;
+	border-radius:15px;
+}
+
+footer #develop{
+	font-weight:bold;
+    .\float:left;
+	background-color: #3E2723;
+	color:white;
+	font-size:30px;
+	width:100%;
+	padding-top:10px;
+	height:40px;
+	text-align:center;
+	border-radius:15px;
+	
+}
+footer{
+	height:700px;
+	border-radius:15px;
+	color:black;
+}
+footer > div{
+   overflow:hidden;
+	font-size:15px;
+}
+
+footer > div >div{
+	float:left;
+	width:19.8%;
+	background-color:white;
+	height:600px;
+	text-align:center;
+	border:1px solid;
+	border-radius:15px;
+	
+}
+
+footer >div >div >img{
+	width:200px;
+	height:270px;
+}
+footer > div >div>p{
+	font-size:25px;
+	
+}
+
+#yong{
+	padding-left:10px;
+	text-align:left;
+	font-size:18px;
+	
+}
+
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+}
